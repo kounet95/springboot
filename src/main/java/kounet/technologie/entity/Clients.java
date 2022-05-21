@@ -24,5 +24,5 @@ public class Clients implements Serializable {
     private String adress;
     private String email;
     private int cotactes;
-    private Date datecreation;
+   // private Date datecreation;
 }

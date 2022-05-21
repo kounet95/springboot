@@ -23,8 +23,10 @@ ImplementProduit implementProduit;
 
     @Override
     public void run(String... args) throws Exception {
-        implementClient.save(new Clients(null, "oumar","tunis","kounet@gmail.com",506966,new Date()));
-        implementFournisseurs.save(new Foumisseur(null,"diallo","tunis","kounet@gmail.com",new Date()));
-        implementProduit.save(new Produits(null,))
+        implementClient.save(new Clients(null, "oumar","tunis","kounet@gmail.com",506966));
+        implementFournisseurs.save(new Foumisseur(null,"diallo","tunis","kounet@gmail.com",85885));
+        //implementProduit.save(new Produits(null,))
+    System.out.println(implementClient + " " + implementFournisseurs );
     }
+
 }

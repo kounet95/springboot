@@ -8,7 +8,8 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.validation.constraints.NotNull;
 import java.io.Serializable;
-import java.util.Date;
+import java.sql.Date;
+import java.util.*;
 
 @Builder
 @Entity
@@ -23,5 +24,5 @@ public class Foumisseur implements Serializable {
     private String adress;
     private String email;
     private int cotactes;
-    private Date datecreation;
+  //  private Date datecreation;
 }
